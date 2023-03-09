@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { Fragment } from 'react'
 import {HeroSection} from '../components/HeroSection'
 import {TimeAndPlace} from '../components/TimeAndPlace'
 import {Speakers} from '../components/Speakers'
@@ -9,7 +9,7 @@ import {KeyPoints} from '../components/KeyPoints'
 import {Sponsorships} from '../components/Sponsorships'
 export const HomePage = () => {
   return (
-    <div>
+    <Fragment>
 <HeroSection/>
 <TimeAndPlace/>
 <Speakers/>
@@ -18,6 +18,6 @@ export const HomePage = () => {
 <KeyPoints/>
 <TimeLine/>
 <Sponsorships/>
-    </div>
+    </Fragment>
   )
 }
