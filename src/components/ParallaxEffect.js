@@ -12,7 +12,7 @@ export const ParallaxEffect = () => {
   }, []);
 
   return (
-    <div className="parallax-container" style={{ height: "50vh" }}>
+    <div className="parallax-container w-100" style={{ height: "50vh" }}>
       <div
         className="parallax-bg"
         style={{
