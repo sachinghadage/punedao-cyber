@@ -64,8 +64,18 @@
   color: #00acc1;
   font-size: 13px;
 }
-@media (max-width: 281px) {
-  .card {
-    margin: 1px auto;
+@media only screen and (max-width: 600px) {
+  .card
+  {
+    width: 100%;
+    margin: 1rem 0.1rem;
+    border: 1px solid black;
+
   }
+.speaker-card
+{
+  width: 100%;
+  margin :0;
+  border-radius: 0;
+}
 }

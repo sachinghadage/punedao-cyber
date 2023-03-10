@@ -27,15 +27,7 @@ export const Speakers = () => {
   ];
   return (
     <Fragment>
-      <h2
-        style={{
-          textAlign: "center",
-          backgroundColor: "rgba(219, 20, 60,0.8)",
-          width: "10%",
-          color: "aliceblue",
-          margin: "auto",
-        }}
-      >
+      <h2 className="bg-secondary fw-bolder text-primary text-center w-h-auto bg-opacity-25 m-auto p-2">
         SPEAKERS
       </h2>
       <div className="speaker-card">
