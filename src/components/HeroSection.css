@@ -1,0 +1,46 @@
+.bg{
+
+
+    height: 500px;
+    width: 100%;
+    margin-top: 20px;
+    position:relative ;
+    background-repeat: no-repeat;
+    background-image: url("../assets/head.jpg");
+    background-size:     cover;  
+}
+
+ .text{
+    display: block;
+    position: relative;
+    top: 40%;
+    color: rgb(227, 232, 238);
+
+
+}
+
+.text h2{
+    display: flex;
+    justify-content: center;
+}
+.text h1{
+    display: flex;
+    justify-content: center;
+}
+.btn-1{
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+@media screen and (max-width: 767px) {
+    .bg {
+      height: 200px;
+    }
+    .text{
+        top: 30%;
+        left: 0%;
+    }
+  }

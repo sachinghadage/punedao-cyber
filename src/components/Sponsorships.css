@@ -1,0 +1,25 @@
+.sponsor-content{
+    display: inline-flex;
+}
+.sponsor{
+    background-image: url("../assets/sponsor1.jpg");
+   
+    height: fit-content;
+    width: fit-content;
+    margin: 10%;
+}
+
+.container-8 h1{
+    display: flex;
+    justify-content:center ;
+}
+
+.sponsor-content{
+    display: flex;
+    justify-content:center ;
+}
+
+
+@media screen and (max-width: 767px) {
+    
+  }
