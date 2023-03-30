@@ -18,6 +18,6 @@ export const HomePage = () => {
 <KeyPoints/>
 <TimeLine/>
 <Sponsorships/>
-    </Fragment>
+     </Fragment>
   )
 }
