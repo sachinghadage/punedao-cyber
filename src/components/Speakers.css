@@ -5,7 +5,7 @@
   flex-direction: row;
   justify-content: space-evenly;
   flex-wrap: wrap;
-  background-color: rgba(0, 172, 193, 0.2);
+  background-color: rgba(0, 173, 193, 0.2);
   border-radius: 18px;
   --transitionDuration: 0.4s;
 }
